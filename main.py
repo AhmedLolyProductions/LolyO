@@ -5,14 +5,6 @@ def User_Notes():
   #The password can be changed in Startup.py > Password() > <settings>
   #To begin installation media instead of normal boot, set the Installation variable to 1
 
-def CreditsAndVersion():
-  time.sleep(0.3)
-  print("github.com/AhmedLolyProductions")
-  time.sleep(1)
-  print("LolyOS v1.0.0")
-  print("\n" * 2)
-  time.sleep(1)
-
 def Install():
   print("Please select an installation media to begin")
   time.sleep(0.2)
@@ -31,10 +23,10 @@ def Install():
     time.sleep(1)
     print("Why not get a real job while the OS is still installing?")
     time.sleep(0.4)
-    print("Go to www.findarealjob.com")
+    print("Visit www.findarealjob.com")
     time.sleep(4)
     print("Estimated time until completion: 3000 decades")
-    time.sleep(6)
+    time.sleep(10)
     print("Installation sucess")
     print("Note: Turn off the installation setup in main.py > BIOS()")
     time.sleep(0.5)
@@ -63,7 +55,7 @@ def Install():
     import Logout
   
   elif Media_Option == '4':
-    print("Error: There is no such thing as 'UEFI', restarting to available OS")
+    print("Error: An unknown error has occured, restarting to available OS")
     time.sleep(1)
     print(".")
     time.sleep(1)
@@ -76,9 +68,21 @@ def Install():
   else:
     print("Invalid option, try again")
     print("\n")
-    BIOS()
+    Installation_Retry()
+
+def Installation_Retry():
+  Install()
+
 def BIOS():
-  CreditsAndVersion()
+  def CreditsAndVersion():
+    time.sleep(0.3)
+    print("github.com/AhmedLolyProductions")
+    time.sleep(1)
+    print("LolyOS v1.0.0")
+    print("\n" * 2)
+    time.sleep(1)
+    CreditsAndVersion()
+  
   #<settings>
   Installation = 0
   #</settings>
@@ -93,7 +97,7 @@ def BIOS():
     time.sleep(0.8)
     print("Error: Startup misconfigured in main.py")
     time.sleep(2)
-    print("Restarting to main OS")
+    print("Restarting to available OS")
     time.sleep(1)
     print(".")
     time.sleep(1)

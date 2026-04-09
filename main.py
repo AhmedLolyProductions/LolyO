@@ -1,9 +1,9 @@
 import time
 
 def User_Notes():
-  #The password is password
-  #The password can be changed in Startup.py > Password() > <settings>
-  #To begin installation media instead of normal boot, set the Installation variable to 1
+  Note1 = "The password is password"
+  Note2 = "The password can be changed in Startup.py > Password() > <settings>"
+  Note3 = "To begin installation media instead of normal boot, set the Installation variable to 1"
 
 def Install():
   print("Please select an installation media to begin")

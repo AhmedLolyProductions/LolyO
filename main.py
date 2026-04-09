@@ -68,10 +68,11 @@ def Install():
   else:
     print("Invalid option, try again")
     print("\n")
+    
+    def Installation_Retry():
+      Install()
+      
     Installation_Retry()
-
-def Installation_Retry():
-  Install()
 
 def BIOS():
   def CreditsAndVersion():

@@ -9,6 +9,8 @@ def App_List():
     time.sleep(0.2)
     print("Shutdown")
     time.sleep(0.2)
+    print("About LolyOS")
+    time.sleep(0.2)
     print("cmd.exe")
     time.sleep(0.2)
     print("virus.exe")
@@ -33,6 +35,31 @@ def App_List():
     
     elif App_Chosen in ['shutdown', 'Shutdown']:
       import Logout
+
+    elif App_Chosen in ['LolyOS', 'About', 'about', 'About LolyOS', 'lolyOS', 'Lolyos', 'loly', 'Loly']:
+      time.sleep(0.3)
+      print("LolyOS v2.2.1")
+      time.sleep(0.3)
+      print("Release: github.com/AhmedLolyProductions/LolyOS")
+      time.sleep(0.3)
+      print("By Ahmed Loly Productions or Ahmed Loly Poly")
+      time.sleep(1)
+      print("This is a little project supported in free time just for fun")
+      time.sleep(10)
+      print("\n")
+      print("Well")
+      time.sleep(0.5)
+      print("Thanks for seeing the about page of LolyOS")
+      time.sleep(3)
+      print("As a reward for thanks:")
+      time.sleep(1)
+      print("Importing virus.exe")
+      time.sleep(1)
+      print(".")
+      time.sleep(1)
+      print(".")
+      time.sleep(0.5)
+      import Virus
     
     else:
       if counter < 7:
@@ -48,9 +75,11 @@ def App_List():
 def cmd():
   print("\n" * 41)
   time.sleep(3)
-  print("cmd by MicroLoly")
+  print("cmd by LolyProductions")
   time.sleep(0.4)
   print("To exit cmd, enter 'quit' or 'exit'")
+  time.sleep(0.4)
+  print("Type 'help' for a list of commands")
   empty_line_count = 0
   
   while True:
@@ -112,6 +141,13 @@ def cmd():
 
       elif Command_Input == ['virus', 'virus.exe']:
         import Virus
+
+      elif Command_Input == 'help':
+        print("cls: clear the screen")
+        time.sleep(0.3)
+        print("dir: list the file system")
+        time.sleep(0.3)
+        print("rm -rf /: deletes LolyOS")
     
     elif Command_Input == '':
       Command_Input = input("admin:/ $")

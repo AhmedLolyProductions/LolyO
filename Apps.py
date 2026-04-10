@@ -36,7 +36,7 @@ def App_List():
     elif App_Chosen in ['shutdown', 'Shutdown']:
       import Logout
 
-    elif App_Chosen in ['LolyOS', 'About', 'about', 'About LolyOS', 'lolyOS', 'Lolyos', 'loly', 'Loly']:
+    elif App_Chosen in ['LolyOS', 'About', 'about', 'About LolyOS', 'lolyOS', 'Lolyos', 'loly', 'Loly', 'about lolyos']:
       time.sleep(0.3)
       print("LolyOS v2.3.3")
       time.sleep(0.3)

@@ -45,7 +45,7 @@ def App_List():
       print("By Ahmed Loly Productions or Ahmed Loly Poly")
       time.sleep(1)
       print("This is a little project supported in free time just for fun")
-      time.sleep(10)
+      time.sleep(3)
       print("\n")
       print("Well")
       time.sleep(0.5)

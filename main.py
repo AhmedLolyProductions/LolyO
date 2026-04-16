@@ -79,7 +79,7 @@ def BIOS():
     time.sleep(0.3)
     print("github.com/AhmedLolyProductions")
     time.sleep(1)
-    print("LolyOS v1.0.0")
+    print("LolyOS v2.4.7")
     print("\n" * 2)
     time.sleep(1)
     CreditsAndVersion()

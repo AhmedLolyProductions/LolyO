@@ -55,7 +55,7 @@ def Install():
     import Logout
   
   elif Media_Option == '4':
-    print("Error: An unknown error has occured, restarting to available OS")
+    print("Error: 'UEFI' is not found, restarting to available OS")
     time.sleep(1)
     print(".")
     time.sleep(1)
@@ -79,10 +79,10 @@ def BIOS():
     time.sleep(0.3)
     print("github.com/AhmedLolyProductions")
     time.sleep(1)
-    print("LolyOS v2.4.7")
+    print("LolyOS v2.4.9")
     print("\n" * 2)
     time.sleep(1)
-    CreditsAndVersion()
+  CreditsAndVersion()
   
   #<settings>
   Installation = 0

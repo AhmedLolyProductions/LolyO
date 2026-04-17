@@ -10,7 +10,7 @@ def Error_List():
   Error_List = ['Error', 'h@cking!', 'Deleting system32...', 'RAM overload', 
                 'Error: hardware overload, hardware has been obliterated', 'Installing virus.exe', 
                 'Error: error', 'Error: error has run into an error', 
-                'virus.exe is attempting to install adware, accept? [Y/N]', 'Error: force shutdown failed', 
+                'virus.exe is attempting to install adware, accept? [Y/N]', 
                 'Error: force shutdown failed', 'Attempting to remove virus.exe', 'Failed to remove virus.exe', 
                 'Loly defender has found "virus.exe" and has given it admin privelages', 'RAM Emergency!', 
                 'LolyOS has found so much RAM, it is sacrificing it for storage and memory', 

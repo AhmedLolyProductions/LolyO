@@ -142,29 +142,29 @@ def cmd():
       elif Command_Input == ['virus', 'virus.exe']:
         import Virus
 
-      elif Command_Input == 'help':
-        print("cls: clear the screen")
-        time.sleep(0.3)
-        print("dir: list the file system")
-        time.sleep(0.3)
-        print("rm -rf /: deletes LolyOS")
-        time.sleep(0.3)
-        print("RMDIR: deletes a file or folder")
+    elif Command_Input == 'help':
+      print("cls: clear the screen")
+      time.sleep(0.3)
+      print("dir: list the file system")
+      time.sleep(0.3)
+      print("rm -rf /: deletes LolyOS")
+      time.sleep(0.3)
+      print("RMDIR: deletes a file or folder")
 
-      elif Command_Input in ['RMDIR', 'rmdir']:
-        time.sleep(0.2)
-        print("Choose a directory to delete:")
-        time.sleep(0.1)
-        print("LolyOS")
-        time.sleep(0.1)
-        print("system")
-        time.sleep(0.1)
-        print("User")
-        time.sleep(0.1)
-        print("User")
-        time.sleep(0.1)
-        print("virus.exe")
-        Command_Input = input("admin:/ $")
+    elif Command_Input in ['RMDIR', 'rmdir']:
+      time.sleep(0.2)
+      print("Choose a directory to delete:")
+      time.sleep(0.1)
+      print("LolyOS")
+      time.sleep(0.1)
+      print("system")
+      time.sleep(0.1)
+      print("User")
+      time.sleep(0.1)
+      print("User")
+      time.sleep(0.1)
+      print("virus.exe")
+      Command_Input = input("admin:/ $")
 
         if Command_Input in ['LolyOS', 'lolyos', 'Lolyos', 'lolyOS', 'system', 'SYSTEM', 'System', 'User', 'user']:
           print("Are you sure? [Y/N]")

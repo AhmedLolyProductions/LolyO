@@ -6,8 +6,8 @@ from datetime import datetime
 now = datetime.now()
 Current_Time = now.strftime("%a %b %d, %Y at %I:%M:%S %p") #docs.python.org/3/library/datetime.html#format-codes
 def Error_List():
-  counter = 0
-  Error_List = ['Error', 'h@cking!', 'Deleting system32...', 'RAM overload', 
+    counter = 0
+    Error_List = ['Error', 'h@cking!', 'Deleting system32...', 'RAM overload', 
                 'Error: hardware overload, hardware has been obliterated', 'Installing virus.exe', 
                 'Error: error', 'Error: error has run into an error', 
                 'virus.exe is attempting to install adware, accept? [Y/N]', 
@@ -20,11 +20,11 @@ def Error_List():
                 '"Hacker" wants to connect to your computer, accept? [Y/N]', 'Loading is loading...', 
                 'Warining: LolyOS has found "system.dll" and has deleted it', 'GPU is heating up to 10000 degrees celcius', 
                 ' ', 'rm -rf /...', 'SYSTEM message: HELP!!!!', 'LolyOS has found "MBR" and has deleted it']
-  
-  while counter < 2000:
-    print(random.choice(Error_List))
-    time.sleep(0.01)
-    counter += 1
+
+    while counter < 2000:
+        print(random.choice(Error_List))
+        time.sleep(0.01)
+        counter += 1
 
 Error_List()
 time.sleep(1)
